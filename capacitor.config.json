@@ -1,0 +1,13 @@
+{
+  "appId": "com.adminlte.cap",
+  "appName": "adminlte",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/adminlte",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
