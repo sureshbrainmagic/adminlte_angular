@@ -1,5 +1,4 @@
 import { Component, AfterViewInit } from '@angular/core';
-
 import * as Prism from 'prismjs';
 
 @Component({
@@ -9,7 +8,10 @@ import * as Prism from 'prismjs';
 })
 export class HomeComponent implements AfterViewInit {
 
-  ngAfterViewInit(): void {
+  
+  ngAfterViewInit(): void {   
     Prism.highlightAll();
   }
+
+  
 }

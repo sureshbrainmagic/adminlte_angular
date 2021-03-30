@@ -7,17 +7,20 @@ import { LayoutModule } from 'angular-admin-lte';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoadingPageModule, MaterialBarModule } from 'angular-loading-page';
+import { ErrorComponent } from './error/error.component';
+import { IonicModule } from '@ionic/angular';
 @NgModule({
   imports: [
     BrowserModule,
     AppRoutingModule,
     CoreModule,
     LayoutModule.forRoot(adminLteConf),
-    LoadingPageModule, MaterialBarModule
+    LoadingPageModule, MaterialBarModule, IonicModule.forRoot()
   ],
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ErrorComponent
   ],
   bootstrap: [AppComponent]
 })
